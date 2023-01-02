@@ -1,38 +1,365 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-inner {
+  width: 100%;
+  max-width: 1400px;
+  background-color: #264324;
+}
+
+.footer-section-ser {
+  /* width: 200px; */
+}
+
+.icon-ase {
+  width: 30px;
+}
+
+.landing-bg-img-zefe3aw {
+  min-height: 75vh;
+  /* background-color: aqua; */
+  background-image: url('../src/assets/bgimg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 600;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-inner-sdfs89e {
+  max-width: 1500px;
+  width: 100%;
+  /* background-color: cadetblue; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchBar-acxmae {
+  width: 850px;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchBar-acxmae input {
+  max-width: 85%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+.searchBar-acxmae button {
+  width: 120px;
+  height: 85%;
+  border-radius: 50px;
+  border: none;
+  background-color: #264324;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  z-index: 50;
+}
+
+.tile-section-srw93 {
+  width: 100%;
+  background-color: #f1f1e8;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile-inner-section-srw93 {
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
+  /* background-color: #636324; */
+}
+
+.tile-headings {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.tile-box-s4ert {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.tile-item {
+  width: 320px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 2px#264324;
+  color: #264324;
+}
+
+.tile-desc-sfcsi {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Recent_Reviews {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.recent_review-cwe {
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
+  /* background-color: #c2dfbf; */
+}
+
+.manImg {
+  width: 60px;
+}
+
+.starImg {
+  width: 30px;
+}
+
+.starBox {
+  background-color: #264324;
+}
+
+.review-box-ceo3a {
+  width: 330px;
+  height: 220px;
+  /* background-color: #264324; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  box-shadow: 0 0 1px#264324;
+}
+
+.review-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.review-desc {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.three-section-asdf3 {
+  /* background-color: #264324; */
+  min-height: 350px;
+  position: relative;
+}
+
+.three-section-asdf3::before {
+  content: '';
+  position: absolute;
+  background-color: #264324;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  z-index: -100;
+
+}
+
+.three-section-inner-asdf3 {
+  max-width: 1500px;
+  width: 100%;
+  height: 100%;
+  /* background-color: #8eac8c; */
+}
+
+.beHeard {
+  font-size: 48px;
+  font-weight: 700;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.beDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  max-width: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.greenBox-sef3 {
+  background-color: #29af36;
+  min-height: 300px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 30px;
+  /* position: absolute;
+  transform: translateY(-140px); */
+}
+
+.manImgB {
+  width: 100px;
+}
+
+.head-casi {
+  font-size: 30px;
+  font-weight: 500;
+  color: #919191;
+}
+
+.head-casi-asd {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.last-secsf-sfs {
+  width: 100%;
+  max-width: 1500px;
+  /* background-color: aquamarine; */
+}
+
+
+
+.sec-last-desc-cssa4 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #264324;
+  text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .searchBar-acxmae {
+    width: 600px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .landing-bg-img-zefe3aw {
+    font-size: 40px;
   }
+
+  .searchBar-acxmae input {
+    max-width: 79%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+
+  .searchBar-acxmae button {
+    width: 120px;
+    height: 100%;
+    border-radius: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .searchBar-acxmae {
+    max-width: 380px;
+  }
+
+  .landing-bg-img-zefe3aw {
+    font-size: 30px;
+    min-height: 300px;
+  }
+
+  .searchBar-acxmae input {
+    max-width: 66%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+
+  .searchBar-acxmae button {
+    width: 120px;
+    height: 100%;
+    border-radius: 50px;
+  }
+
+  .greenBox-sef3 {
+
+    /* position: absolute;
+    transform: translateY(40px); */
+  }
+
+  .three-section-asdf3 {
+    /* background-color: #264324; */
+    min-height: 400px;
+  }
+
+  .sec-last-desc-cssa4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #264324;
+    text-align: center;
+  }
+
+  .three-section-asdf3::before {
+    content: '';
+    position: absolute;
+    background-color: #264324;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -100;
+
+  }
+}
+
+.lastLine {
+  width: 100%;
+  height: 70px;
+  background-color: #29af36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .searchBar-acxmae {
+    max-width: 300px;
+
+  }
+
+  .landing-bg-img-zefe3aw {
+    font-size: 22px;
+
+  }
+
+
+  .searchBar-acxmae input {
+    max-width: 57%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+
+  .searchBar-acxmae button {
+    width: 120px;
+    height: 100%;
+    border-radius: 50px;
+  }
+
+
 }

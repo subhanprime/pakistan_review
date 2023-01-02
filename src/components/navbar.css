@@ -1,0 +1,33 @@
+.navbar-c9es2 {
+    background-color: #264324;
+    min-height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-inner-c9es2 {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.for-business-ew3l9 {
+    border-radius: 19px !important;
+    font-size: 14px !important;
+    color: #264324 !important;
+    background-color: #ffffff !important;
+}
+
+.nav-option-zfnei{
+    cursor: pointer;
+}
+
+.star-logo-erzew img{
+    width: 120px;
+    cursor: pointer;
+}
